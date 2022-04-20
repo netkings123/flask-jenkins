@@ -13,7 +13,7 @@ def hello():
 
 @app.route('/')
 def hello2():
-    html = "<h3>Hello {name}!</h3>" \
+    html = "<h3>Hellooooo {name}!</h3>" \
            "<b>Hostname:</b> {hostname}<br/>"
     return html.format(name=os.getenv("NAME", "world"), hostname=socket.gethostname())
 
